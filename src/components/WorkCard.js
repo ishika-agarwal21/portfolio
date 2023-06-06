@@ -10,7 +10,7 @@ const WorkCard=(props)=> {
           src={props.imgsrc}
             alt="image"
           ></img>
-          <h2 className="project-title"> {props.title}</h2>
+          <h2 className="project-title" > {props.title}</h2>
           <div className="pro-details">
             <p>{props.text}</p>
             <div className="pro-btns">
@@ -21,7 +21,7 @@ const WorkCard=(props)=> {
                 View
               </NavLink>
               <NavLink
-                to="https://github.com/ishika-agarwal21/pokemon-project/tree/master"
+                to={props.source}
                 className="btn"
               >
                 Source

@@ -21,10 +21,11 @@
 
 .project-card img{
     width: 100%;
+    height: 40%;
 }
 
-.proect-title{
-    color: #fff;
+.project-title{
+    color: #e5f410;
     padding: 1rem 0;
 }
 

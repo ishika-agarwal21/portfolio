@@ -33,11 +33,10 @@
 .email  {
     display: flex;
     margin-bottom: 0.8rem;
-} */ */
+} 
 
 .location p  {
     line-height: 30px;
-    /* margin-right: 1rem; */
 }
  .phone p {
     display: flex;
